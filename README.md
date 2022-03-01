@@ -20,10 +20,10 @@ If an error is returned, the App will show a generic message to inform the user.
 *  IDE: **AndroidStudio 4.1.12**;
 *  **Gradle 7.0.3*;
 *  Some other technical information:
-    *  Usede **Koin 2.0.1**;
-    *  Usede **DataBinding 3.1.4**;
-    *  Usede **Coroutines**;
-    *  Usede **Paging**;
+    *  Used **Koin 2.0.1**;
+    *  Used **DataBinding 3.1.4**;
+    *  Used **Coroutines**;
+    *  Used **Paging**;
     *  Dependências para API:
         *  **Retrofit 2.6.0**;
         *  **MoshiConverter 2.6.0**;
