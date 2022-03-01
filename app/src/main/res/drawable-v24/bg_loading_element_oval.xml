@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/bg_loading_start_oval" android:duration="250"/>
+    <item android:drawable="@drawable/bg_loading_end_oval" android:duration="500"/>
+    <item android:drawable="@drawable/bg_loading_start_oval" android:duration="250"/>
+</animation-list>

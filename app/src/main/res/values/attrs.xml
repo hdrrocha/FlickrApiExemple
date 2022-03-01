@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomLoading">
+        <attr name="loadingType" format="enum">
+            <enum name="RECTANGLE" value="0" />
+            <enum name="OVAL" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
