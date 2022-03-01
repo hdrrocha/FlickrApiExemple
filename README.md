@@ -34,7 +34,7 @@ If an error is returned, the App will show a generic message to inform the user.
   *  Dependencies for load image testing:
      *  **Glide 4.12.0**;
      
-  *  Dependencies fordata persistence:
+  *  Dependencies for data persistence:
      *  **Room 2.3.0**;
 
 Thank you!
