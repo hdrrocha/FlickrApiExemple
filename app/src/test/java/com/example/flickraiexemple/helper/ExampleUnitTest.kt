@@ -1,4 +1,4 @@
-package com.example.flickraiexemple
+package com.example.flickraiexemple.helper
 
 import org.junit.Test
 
