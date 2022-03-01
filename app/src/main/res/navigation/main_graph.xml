@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    android:label="@string/app_name"
+    app:startDestination="@id/fragment_home">
+
+    <fragment
+        android:id="@+id/fragment_home"
+        android:name="com.example.flickraiexemple.ui.fragments.HomeFragment"
+        android:label="@string/home_title"
+        tools:layout="@layout/fragment_home">
+
+        <argument
+            android:name="isComparing"
+            android:defaultValue="false"
+            app:argType="boolean"/>
+
+        <action
+            android:id="@+id/fragmentHome_to_fragmentPhotoDetails"
+            app:destination="@id/fragment_photo_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_photo_details"
+        android:name="com.example.flickraiexemple.ui.fragments.PhotoDetailsFragment"
+        android:label="@string/details_title"
+        tools:layout="@layout/fragment_photo_details">
+
+        <argument
+            android:name="id"
+            app:argType="string"/>
+
+    </fragment>
+
+</navigation>
