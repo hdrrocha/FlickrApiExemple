@@ -1,4 +1,4 @@
-package com.mindera.flickergallery
+package com.example.flickraiexemple
 
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import com.squareup.moshi.Moshi

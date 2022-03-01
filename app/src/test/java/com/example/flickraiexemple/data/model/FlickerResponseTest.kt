@@ -1,7 +1,7 @@
 package com.example.flickraiexemple.data.model
 
 import com.google.common.truth.Truth
-import com.mindera.flickergallery.BaseUnitTest
+import com.example.flickraiexemple.BaseUnitTest
 import kotlinx.coroutines.runBlocking
 import org.junit.Test
 
